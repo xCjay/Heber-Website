@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+}
+
+
+
+ul{
+    display: flex;
+    column-gap: 7vw;
+    justify-content: center;
+    margin: 0;
+}
+
+ul>a{
+    height: fit-content;
+    max-width: fit-content;
+    text-decoration: none;
+    font-size: large;
+    color: black;
+    
+
+    margin-top: 5vh;
+    padding: 20px;
+    border-color: black;
+    border-style: solid;
+    border-radius: .8vw;
+}
+
+ul>a{
+    background-color: transparent;
+    
+    transition: 200ms;
+}
+
+ul>a:hover{
+    background-color: rgba(43, 35, 35, 0.2);
+    transition: 200ms;
+}
+
+header{
+    top: 0;
+    margin-top: 0;
+    border-top: 0;
+}
+
+#Home{
+    background-image: url("images/home-hero-cropped.jpg");
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    position: absolute bottom;
+   
+}
+
