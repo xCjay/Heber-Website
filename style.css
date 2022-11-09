@@ -54,8 +54,33 @@ header{
    
 }
 
+
+
 .homepage{
-    background-image: url("images/landscape1.jpg");
+    background-image: url("images/landscape1_optimized.jpg");
     background-size: 100vw 100vh;
     background-repeat: no-repeat;
+}
+
+#GalleryHome{
+    background-image: url("images/gallery-hero-cropped.jpg");
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.gallerypage{
+    background-image: url("images/hilloptimized.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 15vh;
+    background-color: #cccccc;
+}
+
+#Gallery{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-around;
+    row-gap: 50px;
+
+
 }
