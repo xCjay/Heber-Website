@@ -124,7 +124,7 @@ header{
     justify-content: space-around;
 }
 
-.tourgrid>article{
+.tourgrid>figure{
     width: fit-content;
     height: 19vw;
     background-color: darkgray;
@@ -132,12 +132,12 @@ header{
     
 }
 
-.tourgrid>article>a>img{
+.tourgrid>figure>a>img{
     width: auto;
     height: 15vw;
 }
 
-.tourgrid>article>p{
+.tourgrid>figure>p{
     font-size: larger;
 }
 
@@ -159,7 +159,7 @@ header{
     justify-content: space-around;
 }
 
-.entgrid>article{
+.entgrid>figure{
     width: fit-content;
     height: 19vw;
     background-color: darkgray;
@@ -167,11 +167,11 @@ header{
     
 }
 
-.entgrid>article>a>img{
+.entgrid>figure>a>img{
     width: auto;
     height: 15vw;
 }
 
-.entgrid>article>p{
+.entgrid>figure>p{
     font-size: larger;
 }
