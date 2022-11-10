@@ -78,9 +78,100 @@ header{
 
 #Gallery{
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: auto auto;
     justify-content: space-around;
     row-gap: 50px;
 
 
+}
+
+#Gallery>img{
+    max-height: 20vw;
+}
+
+
+
+.hometext{
+    display: grid;
+    margin-top: 25vh;
+    background-color: rgba(204, 204, 204, .8);
+    width: 60vw;
+
+    margin: 0 auto;
+    margin-top: 25vh;
+    text-align: center;
+}
+
+
+
+
+
+#ToursHome{
+    background-image: url(images/optimizedtrain.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.tourpage{
+    background-color: #cccccc;
+}
+
+.tourgrid{
+    display: grid;
+    row-gap: 10vh;
+
+    grid-template-columns: auto auto;
+    justify-content: space-around;
+}
+
+.tourgrid>article{
+    width: fit-content;
+    height: 19vw;
+    background-color: darkgray;
+    text-align: center;
+    
+}
+
+.tourgrid>article>a>img{
+    width: auto;
+    height: 15vw;
+}
+
+.tourgrid>article>p{
+    font-size: larger;
+}
+
+#EntertainHome{
+    background-image: url(images/holiday_lanes2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.entertainpage{
+    background-color: #cccccc;
+}
+
+.entgrid{
+    display: grid;
+    row-gap: 10vh;
+
+    grid-template-columns: auto auto;
+    justify-content: space-around;
+}
+
+.entgrid>article{
+    width: fit-content;
+    height: 19vw;
+    background-color: darkgray;
+    text-align: center;
+    
+}
+
+.entgrid>article>a>img{
+    width: auto;
+    height: 15vw;
+}
+
+.entgrid>article>p{
+    font-size: larger;
 }
